@@ -1,0 +1,30 @@
+{
+  "name": "agent-gateway-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Agent Gateway — lets AI agents request TON blockchain transfers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pewpewgogo/agent-gateway-mcp"
+  },
+  "keywords": ["mcp", "ton", "blockchain", "agent", "ai", "wallet"],
+  "type": "module",
+  "bin": {
+    "agent-gateway-mcp": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
