@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pewpewgogo/agent-gateway-mcp"
+    "url": "https://github.com/tongateway/agent-gateway-mcp"
   },
   "keywords": ["mcp", "ton", "blockchain", "agent", "ai", "wallet"],
   "type": "module",
